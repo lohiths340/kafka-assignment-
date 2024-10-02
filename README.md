@@ -29,6 +29,7 @@ curl -X POST -H "Content-Type: application/json" --data @postgres-sink-connector
 <br> 
 4.Running the Kafka consumer<br> 
 python consumer.py<br> 
+<br> 
 5.Accessing the postgreSQL database container <br> 
 docker exec -it postgres psql -U user -d orders<br> 
 You can run a query to see the records:-<br> 
