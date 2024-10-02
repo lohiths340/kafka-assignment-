@@ -4,7 +4,7 @@
 This project implements a real-time order processing system that ingests order data from a simulated REST API using kafka, processes and enriches the data, and stores it in a postgreSQL database using kafka Connect. The system runs on docker compose.
 
 Prerequisites:-
-1.Docker and Docker Compose
+1.Docker and Docker Compose <br> 
 2.Python (with kafka library for producer/consumer testing)
 3.Git
 
