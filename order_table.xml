@@ -1,0 +1,8 @@
+CREATE TABLE enriched_orders (
+  order_id INT PRIMARY KEY,
+  product_name VARCHAR(255),
+  quantity INT,
+  price DECIMAL,
+  order_date TIMESTAMP,
+  total_value DECIMAL
+);
