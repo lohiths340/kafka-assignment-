@@ -19,11 +19,14 @@ Setup Instructions<br>
 1.Clone the repository<br> 
 2.Start docker containers: Using docker compose to set up kafka, kafka Connect, and postgreSQL<br> 
 docker-compose up -d<br> 
+<br> 
 3.Deploying Kafka Connectors<br> 
 HTTP Source Connector:<br> 
 curl -X POST -H "Content-Type: application/json" --data @http-source-connector.json http://localhost:8083/connectors<br> 
+<br> 
 PostgreSQL Sink Connector:<br> 
 curl -X POST -H "Content-Type: application/json" --data @postgres-sink-connector.json http://localhost:8083/connectors<br> 
+<br> 
 4.Running the Kafka consumer<br> 
 python consumer.py<br> 
 5.Accessing the postgreSQL database container <br> 
