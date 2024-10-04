@@ -1,7 +1,7 @@
 ![image](../images/confluent-logo-300-2.png)
   
 # Documentation
-A project which implements a real-time order processing system that ingests order data from a simulated REST API using kafka, processes and enriches the data, and stores it in a postgreSQL database using kafka connect. The system runs on docker compose.
+Implements a real-time order processing system that ingests order data from a simulated REST API using kafka, processes and enriches the data, and stores it in a postgreSQL database using kafka connect. The system runs on docker compose.
 
 Prerequisites:-<br> 
 1.Docker and Docker Compose <br> 
