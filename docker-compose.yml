@@ -200,6 +200,7 @@ services:
   postgres:
     image: postgres:13
     environment:
+    container_name: postgres
       POSTGRES_USER: user
       POSTGRES_PASSWORD: password
       POSTGRES_DB: orders_db
